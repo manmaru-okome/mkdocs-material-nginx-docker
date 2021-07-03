@@ -1,0 +1,13 @@
+site_name: Test Docs
+nav:
+    - Home: index.md
+    - About: about.md
+    - Sample: sample.md
+dev_addr: 0.0.0.0:8000
+theme:
+    name: "material"
+    palette:
+        primary: pink
+        accent: cyan
+markdown_extensions:
+    - admonition
