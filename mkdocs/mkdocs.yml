@@ -8,7 +8,7 @@ theme:
     name: "material"
     language: "ja"
     palette:
-        primary: pink
+        primary: blue
         accent: cyan
     features:
         - navigation.instant
