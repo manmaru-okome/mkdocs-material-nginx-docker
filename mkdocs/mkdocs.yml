@@ -6,8 +6,22 @@ nav:
 dev_addr: 0.0.0.0:8000
 theme:
     name: "material"
+    language: "ja"
     palette:
         primary: pink
         accent: cyan
+    features:
+        - navigation.instant
+        - navigation.tabs
+        - navigation.top
+        - toc.integrate
+        - header.autohide
+extra:
+    search:
+        language: "jp"
 markdown_extensions:
     - admonition
+    - codehilite:
+          noclasses: true
+          pygments_style: colorful
+          linenums: true
